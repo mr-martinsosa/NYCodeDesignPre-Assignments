@@ -3,8 +3,6 @@
 /* 1. Write a for loop to log the message “I am love making pizza pies!”
 10 times to the console. */
 
-var i;
-
 for (i = 0; i < 10; i++){
   console.log("I love making pizza pies!");
 }
@@ -13,8 +11,6 @@ for (i = 0; i < 10; i++){
 to count from 1 to 100 by adding 1 to the variable counter at the end of the
 loop. Display what the current value of the variable counter is within the loop.
 */
-
-var counter;
 
 for (counter = 1; counter < 101; counter++){
   console.log(counter);
