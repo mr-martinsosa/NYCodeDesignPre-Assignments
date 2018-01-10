@@ -1,0 +1,40 @@
+h1, p, li{
+  font-family: sans-serif;
+}
+
+ul.nav { /* get rid of bullet points in the list style */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4267b2;
+}
+
+li.nav{ /* display it horizontally */
+    display: inline;
+    float: left;
+}
+
+li a { /* create a block like menu for nav bar */
+    display: block;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none; /* remove the underline */
+}
+
+li a:hover { /* change color on hover */
+    background-color: #365899;
+    color: white;
+}
+
+img.me{
+  border-radius: 45%;
+}
+
+img.gallery{ /* put filters on everything! */
+  filter:sepia();
+}
+
+img.gallery:hover{ /* dancing notes! */
+  transform: scaleX(-1);
+}
